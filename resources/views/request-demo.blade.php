@@ -31,6 +31,7 @@
           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
              We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
 </head>
 <body>
     <div class=" w-full bg-[#EEFBFF]">
@@ -106,7 +107,7 @@
                             ><input
                               type="text"
                               name="PHONE"
-                              class="REQ_CSS srs-input"
+                              class="REQ_CSS srs-input" style="padding-left: 3rem !important;"
                               id="mce-PHONE"
                               value=""
                               placeholder="Your Phone Number" oninput="checkInputs()"
@@ -408,6 +409,12 @@
     </script>
 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[3]='ADDRESS';ftypes[3]='address';fnames[6]='MMERGE6';ftypes[6]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[9]='MMERGE9';ftypes[9]='dropdown';fnames[8]='MMERGE8';ftypes[8]='dropdown';fnames[10]='MMERGE10';ftypes[10]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+<script>
+  const input = document.querySelector("#mce-PHONE");
+  window.intlTelInput(input, {
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+  });
+</script>
 </body>
 </html>
