@@ -8,7 +8,7 @@
                 <p class=" text-[#241704] text-sm sm:text-base text-right font-Poppins max-w-[464px] text-opacity-70">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                 </p>
-                <button class=" text-white font-Poppins text-center text-sm sm:text-[15px] font-semibold bg-[#647BFF] btn hover:scale-110 duration-200 rounded-[14px]">request demo</button>
+                <a href="/request-demo" class=" text-white font-Poppins text-center text-sm sm:text-[15px] font-semibold bg-[#647BFF] btn hover:scale-110 duration-200 rounded-[14px]">request demo</a>
             </div>
            </div>
         </div>

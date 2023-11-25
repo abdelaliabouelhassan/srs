@@ -36,9 +36,9 @@
 <body>
     <div class=" w-full bg-[#EEFBFF]">
         <div class=" w-full max-w-[1265px] mx-auto flex items-center justify-between py-4 px-4 space-x-4">
-            <div class="">
+            <a href="/">
                 <img src="/images/logo.png" alt="">
-            </div>
+            </a>
             <div class=" flex items-center space-x-4 sm:space-x-8">
                 <a href="/home" class=" text-[#392507] font-Poppins text-sm  sm:text-xl  whitespace-nowrap  border-[#647BFF]" >Home</a>
                 <a href="/about-us" class=" text-[#392507] font-Poppins  text-sm  sm:text-xl whitespace-nowrap  border-[#647BFF]" >About us</a>
