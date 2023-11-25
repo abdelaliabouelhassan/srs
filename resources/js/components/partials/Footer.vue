@@ -13,8 +13,8 @@
 
                     <div class=" flex items-center space-x-5">
                         <a href="/home" class=" text-primary text-xs font-Poppins font-medium">Home</a>
-                          <a href="/home" class=" text-primary text-xs font-Poppins font-medium">About us</a>
-                            <a href="/home" class=" text-primary text-xs font-Poppins font-medium">Request Demo</a>
+                          <a href="/about-us" class=" text-primary text-xs font-Poppins font-medium">About us</a>
+                            <a href="/request-demo" class=" text-primary text-xs font-Poppins font-medium">Request Demo</a>
                               <a href="mailto:peterd@co2clarity.com" class=" text-primary text-xs font-Poppins font-medium">Contact Us</a>
                     </div>
                 </div>

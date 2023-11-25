@@ -15,5 +15,6 @@
         @yield('contnent')
        </div>
        
+       @yield('scripts')
     </body>
 </html>
